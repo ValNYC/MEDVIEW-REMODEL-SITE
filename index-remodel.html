@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>&#127973;MEDVIEW136 Introduction</title>
+	<!--<script type="text/javascript" src="jquery_FILE.js"></script> When I used my own .js file the Read More scripting wouldn't react!! had to use the 
+		online ajax jquery. Will continue to do so to avoid confusing bugs!-->
+	<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.js"
+type="text/javascript"></script>
+	<link href="medview-bootstrap.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+	<style>
+	img {
+	         width: 100%;
+	         height: 200px;
+	          margin-bottom: 5px;
+	       }
+	        @media all and (max-width: 960px) and (min-width: 480px);
+	</style>
+	<script type="text/javascript">
+$(document).ready(function() {
+$(".extraText").hide();
+$("span.readmore").click(function(){
+$(".extraText").show("slow");
+$(this).hide();
+});
+});
+</script>
+<body>
+	<div class="wrapper">
+		<nav>
+			<ul class="nav">
+			<li>
+			<a href="index-remodel.html">Home</a>
+			</li>
+			<li>
+			<a href="images-remodel.html">Clinical Impressions</a>
+			</li>
+			<li>
+			<a href="about-remodel.html">About MEDVIEW136</a>
+			</li>
+			</ul>
+		</nav>
+	<h1>Welcome to MEDVIEW136</h1>
+	<h1>How can I help?</h1>
+	<img class="img-circle" src="images/amy-ok.jpg">
+
+	<h2>Where Are We Headed?</h2>
+	<!--Added this div so that the scripting for "read more" script would work= tip from stack overflow.-->
+	<div> 
+	<p>At <strong>MEDVIEW136</strong>, we want our radiology customers to know that we're on the <em>user's</em> side!</p>
+	<p>We achieve this by providing the following analyses:</p>
+			<ul>
+				<li>Clinical Software Inventory</li>
+				<li>Clinical Worklfow Observation</li>
+				<li>User Friendliness Quotient</li>
+			</ul>
+			<p>Based on these analyses, we can offer you improvements to your current clinical  radiology workflow. We understand the time limits involved in your line of work.</p> 
+			<p>An x-ray technician needs to be quick and efficient when delivering patient care. A radiologist needs to deliver their read reports ASAP!</p>  
+			<p>Increased workloads and decreasing staff levels add pressure to the delicate relationship between x-ray techs and radiologists.</p>
+			<p>This is the point when <strong>MEDVIEW136</strong> can help improve your hectic workflow!</p> 
+			<p>The need for faster reads gave way to the teleradiology explosion.</p> 
+			<p>A digital clinical environment now creates a space where the radiologist and RT aren’t always in the same place.</p> 
+			<p>The advances in digital radiography don't necessarily guarantee a happy workflow for all involved.<span class="readmore"> Read More...</span> <div class="extraText"> Radiologic technologists take x-rays and CAT scans, administer non-radioactive material into a patient’s blood stream, and interpret the images that are produced.
+			<p>They may specialize in an area like geriatrics or pediatrics, or they make work with ultrasound, magnetic resonance, or computed tomography.
+			<p>As the population ages, the demand for radiologic technologists will increase, making this a highly desirable career path.</p>
+</div>	
+
+</div>
+<p>&#169; MEDVIEW136.com 2017</p>
+</body>
+</html>
